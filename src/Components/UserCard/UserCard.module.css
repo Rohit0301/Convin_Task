@@ -1,0 +1,53 @@
+.card{
+    display: flex;
+    padding: 16px;
+    border: 1px solid grey;
+    border-radius: 4px;
+    align-items: center;
+    width: max-content;
+}
+.left img{
+    border-radius: 50%;
+    width: 6rem;
+    height: 6rem;
+    object-fit: cover;
+}
+
+.right{
+    padding-left: 12px;
+}
+
+.name{
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.email{
+    font-size: 1.15rem;
+    letter-spacing: 0.03em;
+    color: #6e6e6e;
+    padding-top: 2px;
+    font-weight: 100;
+    font-family: emoji;
+}
+
+.empty_text{
+    font-size: 1.1rem;
+    font-family: sans-serif;
+    letter-spacing: 0.02em;
+    color: #868686;
+}
+
+@media (max-width:500px) {
+    .name{
+        font-size: 1.5rem;
+    }
+    .email{
+        font-size: 1rem;
+    }
+    .left img{
+        width: 5rem;
+        height: 5rem;
+    }
+}

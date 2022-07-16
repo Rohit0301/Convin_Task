@@ -1,0 +1,22 @@
+.button{
+    background: white;
+    margin: 0 4px;
+    padding: 4px 8px;
+    border-color: deepskyblue;
+    border-style: solid;
+    border-width: 2px;
+    color: deepskyblue;
+    font-weight: 600;
+    cursor: pointer;
+}
+.active_button{
+    background: deepskyblue;
+    margin: 0 4px;
+    padding: 4px 8px;
+    border-color: deepskyblue;
+    border-style: solid;
+    border-width: 2px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}

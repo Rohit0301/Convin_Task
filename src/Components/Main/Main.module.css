@@ -1,0 +1,57 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6rem;
+}
+
+.buttons{
+    padding-top: 12px;
+    line-height: 2.4rem;
+}
+
+.action_button{
+    margin: 0 12px;
+    padding: 4px 8px;
+    background: white;
+    border-radius: 3px;
+    color: black;
+    font-weight: 600;
+    font-family: monospace;
+    cursor: pointer;
+}
+
+.action_button:disabled{
+    margin: 0 12px;
+    padding: 4px 8px;
+    background: white;
+    border-radius: 3px;
+    color: #aeaaaa;
+    font-weight: 600;
+    font-family: monospace;
+    cursor: not-allowed;
+    border-style: solid;
+    border-color: #aeaaaa;
+}
+
+
+.loader {
+    border: 16px solid #ffffff;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+  }
+  
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
